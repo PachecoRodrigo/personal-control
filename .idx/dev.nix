@@ -6,6 +6,9 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     pkgs.python3
+    pkgs.python312Packages.pip
+    pkgs.python311Packages.django
+    pkgs.sqlite
   ];
   # Sets environment variables in the workspace
   env = {};
